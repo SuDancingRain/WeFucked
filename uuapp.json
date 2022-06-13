@@ -1,0 +1,17 @@
+{
+  "product": "uu_IOT_main",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "uu_IOT_main-hi": {},
+  "uu_IOT_main-server": {}
+}
