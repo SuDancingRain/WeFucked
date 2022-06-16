@@ -6,6 +6,12 @@
       "schemaMap": {
         "iOTMain": {
           "realization": "dao/IOTMainMongo"
+        },
+        "meteo": {
+          "realization": "dao/MeteoMongo"
+        },
+        "data": {
+          "realization": "dao/DataMongo"
         }
       }
     }

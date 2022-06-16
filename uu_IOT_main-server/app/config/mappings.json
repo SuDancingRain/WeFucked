@@ -15,6 +15,36 @@
         "realization": "index.html",
         "httpMethod": "GET",
         "type": "UVE"
+      },
+      "meteo/create": {
+        "realization": "api/controllers/MeteoController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "meteo/delete": {
+        "realization": "api/controllers/MeteoController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "meteo/update": {
+        "realization": "api/controllers/MeteoController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "meteo/get": {
+        "realization": "api/controllers/MeteoController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "meteo/list": {
+        "realization": "api/controllers/MeteoController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "data/filteredList": {
+        "realization": "api/controllers/DataController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
       }
     }
   }

@@ -1,11 +1,10 @@
 {
   "{asid}": {
-    "profileList": ["AsidAuthorities", "AsidExecutives", "AsidLicenseOwner", "Public"],
-    "useCaseMap": {
-    }
+    "profileList": ["AsidAuthorities","AsidExecutives","AsidLicenseOwner","Public"],
+    "useCaseMap": {}
   },
   "*": {
-    "profileList": ["Authorities", "Executives", "AwidLicenseOwner", "Public"],
+    "profileList": ["Authorities","Executives","AwidLicenseOwner","Public"],
     "useCaseMap": {
       "sys/uuAppWorkspace/init": {
         "sysStateList": ["created"],
@@ -16,7 +15,31 @@
       },
       "sys/uuAppWorkspace/initUve": {
         "sysStateList": ["created"],
-        "profileList": ["Public", "AwidLicenseOwner"]
+        "profileList": ["Public","AwidLicenseOwner"]
+      },
+      "meteo/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "meteo/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Executives","AwidLicenseOwner"]
+      },
+      "meteo/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Executives","AwidLicenseOwner"]
+      },
+      "meteo/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Executives","AwidLicenseOwner"]
+      },
+      "meteo/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Executives","AwidLicenseOwner"]
+      },
+      "data/filteredList": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities","Executives","AwidLicenseOwner"]
       }
     }
   }
